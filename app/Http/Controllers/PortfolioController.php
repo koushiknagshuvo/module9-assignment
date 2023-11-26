@@ -10,24 +10,18 @@ class PortfolioController extends Controller
     {
         return view('Layout.app');
     }
+    public function service()
+    {
+        return view('Pages.service');
+    }
 
-    // public function about()
-    // {
-    //     return view('Pages.about');
-    // }
+    public function project()
+    {
+        return view('Pages.project');
+    }
 
-    // public function service()
-    // {
-    //     return view('Pages.service');
-    // }
-
-    // public function project()
-    // {
-    //     return view('Pages.project');
-    // }
-
-    // public function contact()
-    // {
-    //     return view('Pages.contact');
-    // }
+    public function contact()
+    {
+        return view('Pages.contact');
+    }
 }

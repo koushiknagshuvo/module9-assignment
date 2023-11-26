@@ -44,9 +44,8 @@
 
 
     @include('components.header')
-
+    @include('Pages.about')
     @yield('content')
-
     @include('components.footer')
 
 
